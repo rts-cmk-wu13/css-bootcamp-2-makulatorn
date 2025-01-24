@@ -7,6 +7,11 @@
   list-style: none;
 }
 
+section, footer {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .menu {
   display: grid;
   grid-template-columns: repeat(50 auto);
