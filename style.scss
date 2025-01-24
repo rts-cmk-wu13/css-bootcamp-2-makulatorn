@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    box-sizing: content-box;
+    color: black;
+    list-style: none;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(50 auto);
+    grid-template-rows: repeat(2 auto);
+}
+
+.menu-link{
+    text-decoration: none;
+    &:hover{
+        color: red;
+    }
+}
+
+.menu-img{
+    grid-area: 1/5;
+}
+.menubars{
+    grid-area: 2/5;
+    display: flex;
+    gap: 30px;
+}
+
+.menu-left{
+    grid-area: 1/1;
+}
+.menu-right{
+    grid-area: 1/10;
+}
+
+.annonce{
+    text-align: center;
+}
