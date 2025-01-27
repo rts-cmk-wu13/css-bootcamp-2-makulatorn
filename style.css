@@ -1,17 +1,3 @@
-* {
-  margin: 0 auto;
-  padding: 0;
-  max-width: 1440px;
-  box-sizing: content-box;
-  color: black;
-  list-style: none;
-}
-
-section, footer {
-  margin: 0 auto;
-  width: 80%;
-}
-
 .menu {
   display: grid;
   grid-template-columns: repeat(50 auto);
@@ -20,6 +6,7 @@ section, footer {
 
 .menu-link {
   text-decoration: none;
+  font-weight: bold;
 }
 .menu-link:hover {
   color: red;
@@ -45,4 +32,36 @@ section, footer {
 
 .annonce {
   text-align: center;
+}
+
+.gas {
+  display: grid;
+}
+.gas .gas-abo {
+  display: inline;
+}
+.gas #gas-abo-id {
+  color: red;
+}
+.gas #gas-abo-tid {
+  color: grey;
+}
+.gas .gas-aside {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.gas .gas-aside .gas-img {
+  grid-area: 1/3;
+}
+.gas .gas-aside .gas-aside-txt {
+  grid-area: 1/1;
+  font-size: 10px;
+}
+.gas .gas-aside .gas-author {
+  grid-area: 2/1;
+  display: inline-flex;
+}
+.gas .gas-aside .gas-author-name {
+  font-size: 10px;
 }/*# sourceMappingURL=style.css.map */
