@@ -37,11 +37,9 @@
 .gas {
   display: grid;
 }
-.gas .gas-abo {
-  display: inline;
-}
 .gas #gas-abo-id {
   color: red;
+  float: left;
 }
 .gas #gas-abo-tid {
   color: grey;
